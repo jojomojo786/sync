@@ -1,0 +1,451 @@
+body {
+	--bg: #fff;
+	--bg-1: #e9f7fe;
+	--bg-2: #f5fafd;
+	--bg-3: #f7f8fa;
+	--bg-4: #f8fafe;
+	--bg-5: #f8fbff;
+	--bg-6: #f7f9fc;
+	--color-headings: #1d293f;
+	--color-texts: #7c8087;
+	--color-texts-2: #3b4656;
+	--border-color: #e2e4e8;
+	--border-color-2: #d2e4ed;
+	--border-color-3: #ECEFF4;
+	--border-color-4: #3b4656;
+	--border-color-5: #1d293f
+}
+
+.light-version-logo {
+	display: none
+}
+
+.dark-version-logo {
+	display: none
+}
+
+.btn {
+	border-radius: 0;
+	font-size: 16px;
+	font-weight: 500;
+	height: 65px;
+	min-width: 193px;
+	line-height: 28px;
+	padding: 5px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center
+}
+
+.btn.btn-2 {
+	min-width: 217px;
+	height: 55px
+}
+
+.btn.btn-3 {
+	min-width: 200px;
+	height: 55px
+}
+
+.btn-link {
+	color: #8c97ac;
+	font-size: 16px;
+	font-weight: 500
+}
+
+[data-pricing-dynamic][data-value-active=yearly] [data-pricing-trigger] {
+	background: #22b0fc
+}
+
+.l3-content-image-5 {
+	z-index: 1
+}
+
+.l3-content-image-5 .img-1 {
+	position: relative;
+	width: 70%;
+	left: 50%;
+	transform: translateX(-50%)
+}
+
+@media (min-width:992px) {
+	.l3-content-image-5 .img-1 {
+		left: 45%
+	}
+}
+
+.l3-content-image-5 .img-2 {
+	top: 80%;
+	position: absolute;
+	width: 80%;
+	right: -50px;
+	transform: translateY(-80%)
+}
+
+.l3-content-image-5 .img-3 {
+	z-index: -1;
+	top: 30%;
+	left: 30%;
+	width: 72%;
+	position: absolute;
+	transform: translate(-50%, -50%)
+}
+
+@media (min-width:768px) {
+	.l3-content-image-5 .img-3 {
+		left: 30%
+	}
+}
+
+@media (min-width:992px) {
+	.l3-content-image-5 .img-3 {
+		left: 23%
+	}
+}
+
+.l4-content-img-2 {
+	position: relative
+}
+
+.l5-content-2 {
+	position: relative
+}
+
+.opacity-5 {
+	opacity: .5
+}
+
+.min-w-63 {
+	min-width: 63px
+}
+
+.min-w-76 {
+	min-width: 76px
+}
+
+.min-w-144 {
+	min-width: 144px
+}
+
+.max-w-193 {
+	max-width: 193px
+}
+
+.min-w-210 {
+	min-width: 210px
+}
+
+.min-w-255 {
+	min-width: 255px
+}
+
+.min-w-266 {
+	min-width: 266px
+}
+
+.max-w-322 {
+	max-width: 322px
+}
+
+.max-w-413 {
+	max-width: 413px
+}
+
+.max-w-536 {
+	max-width: 536px
+}
+
+.max-w-540 {
+	max-width: 540px
+}
+
+.min-h-222 {
+	min-height: 222px
+}
+
+.h-50 {
+	height: 50px !important
+}
+
+.h-55 {
+	height: 55px !important
+}
+
+.h-60 {
+	height: 60px !important
+}
+
+.max-h-64 {
+	max-height: 64px
+}
+
+.min-h-107 {
+	min-height: 107px
+}
+
+.border-radius-50 {
+	border-radius: 50%
+}
+
+.w-70 {
+	max-width: 70%
+}
+
+.w-30 {
+	max-width: 30%
+}
+
+.line-height-20 {
+	line-height: 20px
+}
+
+.line-height-26 {
+	line-height: 26px
+}
+
+.line-height-34 {
+	line-height: 34px
+}
+
+.line-height-84 {
+	line-height: 1.05
+}
+
+.border-custom-white {
+	border-color: rgba(236, 239, 244, .3) !important
+}
+
+.hover-pointer:hover {
+	cursor: pointer
+}
+
+.main-container {
+	max-width: 970px;
+	margin: 0 auto;
+	overflow: hidden
+}
+
+.video-frame {
+	display: block;
+	vertical-align: top;
+	box-sizing: border-box;
+	position: relative;
+	padding: 0;
+	width: 100%;
+	max-width: 100%;
+	height: 0;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' style='margin: auto; display: block;' width='200px' height='200px' viewBox='0 0 100 100' preserveAspectRatio='xMidYMid'%3E%3Ccircle cx='80' cy='50' r='5' fill='%231d3f72'%3E%3Canimate attributeName='cx' values='80;50' keyTimes='0;1' dur='1s' repeatCount='indefinite'%3E%3C/animate%3E%3Canimate attributeName='cy' values='50;80' keyTimes='0;1' dur='1s' repeatCount='indefinite'%3E%3C/animate%3E%3Canimate attributeName='fill' values='%231d3f72;%235699d2' keyTimes='0;1' dur='1s' repeatCount='indefinite'%3E%3C/animate%3E%3C/circle%3E%3Ccircle cx='50' cy='80' r='5' fill='%235699d2'%3E%3Canimate attributeName='cx' values='50;20' keyTimes='0;1' dur='1s' repeatCount='indefinite'%3E%3C/animate%3E%3Canimate attributeName='cy' values='80;50.00000000000001' keyTimes='0;1' dur='1s' repeatCount='indefinite'%3E%3C/animate%3E%3Canimate attributeName='fill' values='%235699d2;%23d8ebf9' keyTimes='0;1' dur='1s' repeatCount='indefinite'%3E%3C/animate%3E%3C/circle%3E%3Ccircle cx='20' cy='50.00000000000001' r='5' fill='%23d8ebf9'%3E%3Canimate attributeName='cx' values='20;49.99999999999999' keyTimes='0;1' dur='1s' repeatCount='indefinite'%3E%3C/animate%3E%3Canimate attributeName='cy' values='50.00000000000001;20' keyTimes='0;1' dur='1s' repeatCount='indefinite'%3E%3C/animate%3E%3Canimate attributeName='fill' values='%23d8ebf9;%2371c2cc' keyTimes='0;1' dur='1s' repeatCount='indefinite'%3E%3C/animate%3E%3C/circle%3E%3Ccircle cx='49.99999999999999' cy='20' r='5' fill='%2371c2cc'%3E%3Canimate attributeName='cx' values='49.99999999999999;80' keyTimes='0;1' dur='1s' repeatCount='indefinite'%3E%3C/animate%3E%3Canimate attributeName='cy' values='20;49.99999999999999' keyTimes='0;1' dur='1s' repeatCount='indefinite'%3E%3C/animate%3E%3Canimate attributeName='fill' values='%2371c2cc;%231d3f72' keyTimes='0;1' dur='1s' repeatCount='indefinite'%3E%3C/animate%3E%3C/circle%3E%3C/svg%3E");
+	z-index: 1000000000;
+	padding-top: 56.25%;
+	background-repeat: no-repeat;
+	background-position: center
+}
+
+.video-frame iframe {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0
+}
+
+.btn.btn-2 {
+	min-width: 217px;
+	height: 34px;
+	min-width: 135px;
+	border-radius: 3px;
+	line-height: 23px;
+	font-size: 15px
+}
+
+.btn-blue-3:hover {
+	filter: brightness(90%)
+}
+
+.btn-blue-3:active {
+	box-shadow: unset !important;
+	filter: brightness(80%)
+}
+
+.btn-selector {
+	color: #fff;
+	min-width: 150px;
+	border-radius: 5px !important;
+	outline: unset !important;
+	height: 34px;
+	font-weight: 500;
+	line-height: 33px;
+	z-index: 1 !important
+}
+
+.btn-selector:hover {
+	filter: brightness(90%)
+}
+
+option:active,
+option:select {
+	box-shadow: 0 0 10px 100px #1882a8 inset
+}
+
+a:hover {
+	filter: brightness(90%)
+}
+
+a:active {
+	filter: brightness(80%)
+}
+
+.nice-select .option {
+	transition: unset !important;
+	-webkit-transition: unset !important;
+	background-color: #1d1d1d
+}
+
+.nice-select .option:hover {
+	background-color: #2387bd
+}
+
+.nice-select:after {
+	border-bottom: 2px solid #fff;
+	border-right: 2px solid #fff;
+	height: 6px;
+	width: 6px
+}
+
+#back_button,
+#description,
+#disqus,
+#download {
+	display: none
+}
+
+#next_button,
+#prev_button {
+	cursor: unset;
+	opacity: 0
+}
+
+#custom_logo {
+	display: none;
+	height: 55px
+}
+
+.nice-select .option {
+	min-height: 35px;
+	height: 35px;
+	line-height: 35px
+}
+
+#description, #instructions{
+    background: rgb(255 255 255 / 0.10);
+    padding: 30px;
+    padding-bottom: 15px;
+ }
+
+#direct-video {
+	height: 100% !important;
+	width: 100% !important;
+	position: absolute;
+	top: 0;
+	left: 0
+}
+
+#bottom_buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center
+}
+
+#top_buttons {
+	display: block;
+	height: 34px
+}
+
+.nice-select {
+	font-size: 15px
+}
+
+#instructions p {
+	font-size: 1rem
+}
+
+#title {
+	filter: brightness(100%)
+}
+
+#dark_cover{
+    background: #060606; width: 100%; height: 2000px; overflow: hidden; position: fixed; z-index: 1000000000; display:none;margin-top: -40px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.float-right{
+    float:right;
+}
+
+.small14icon{
+    height: 14px;width: 14px;
+}
+
+#disqus, #download{
+    padding: 9px;padding-right: 20px;padding-left: 20px; margin-top:20px;margin-left: 5px; margin-right: 5px;
+}
+
+#disquis{
+    line-height: 17px;
+}
+#download{
+    line-height: 14px;
+}
+
+#description hr, #instructions hr{
+    border-top: 1px solid rgb(255 255 255 / 20%);
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:450px) {
+	.btn.btn-2 {
+		height: 31px !important;
+		min-width: 115px !important;
+		line-height: 19px !important;
+		font-size: 13px !important
+	}
+
+	.btn-selector {
+		height: 31px !important;
+		line-height: 30px !important
+	}
+	
+	#custom_logo {
+		height: 50px
+	}
+
+	h3 {
+		font-size: 23px
+	}
+
+	p {
+		font-size: 1rem;
+		margin-bottom: .5rem
+	}
+
+	.nice-select {
+		font-size: 13px
+	}
+
+	#disqus.btn.btn-2,
+	#download.btn.btn-2 {
+		line-height: 14px !important
+	}
+}
+
+#embed-video{
+	min-height:260px;
+}
