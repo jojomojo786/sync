@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Circular Std';
+    src: url('CircularStd-Medium.html');
+    src: url('CircularStd-Mediumd41d.eot?#iefix') format('embedded-opentype'),
+        url('CircularStd-Medium.woff2') format('woff2'),
+        url('CircularStd-Medium.woff') format('woff'),
+        url('CircularStd-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('CircularStd-Book.html');
+    src: url('CircularStd-Bookd41d.html?#iefix') format('embedded-opentype'),
+        url('CircularStd-Book.woff2') format('woff2'),
+        url('CircularStd-Book.woff') format('woff'),
+        url('CircularStd-Book.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('CircularStd-BookItalic.html');
+    src: url('CircularStd-BookItalicd41d.html?#iefix') format('embedded-opentype'),
+        url('CircularStd-BookItalic-2.html') format('woff2'),
+        url('CircularStd-BookItalic-3.html') format('woff'),
+        url('CircularStd-BookItalic-4.html') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('CircularStd-BoldItalic.html');
+    src: url('CircularStd-BoldItalicd41d.html?#iefix') format('embedded-opentype'),
+        url('CircularStd-BoldItalic-2.html') format('woff2'),
+        url('CircularStd-BoldItalic-3.html') format('woff'),
+        url('CircularStd-BoldItalic-4.html') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('CircularStd-Bold.html');
+    src: url('CircularStd-Boldd41d.html?#iefix') format('embedded-opentype'),
+        url('CircularStd-Bold.woff2') format('woff2'),
+        url('CircularStd-Bold-2.html') format('woff'),
+        url('CircularStd-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
